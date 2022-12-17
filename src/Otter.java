@@ -4,6 +4,11 @@ public class Otter extends Animal implements Swimable, Runable, Speakable{
     }
 
     @Override
+    public String toString() {
+        return "Otter" + super.toString();
+    }
+
+    @Override
     public int runSpeed() {
         return 6;
     }
